@@ -1,0 +1,353 @@
+<!--
+// v0 by Vercel.
+// https://v0.dev/t/b2dt5mQ7YLo
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookShelf</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    
+<header>
+  <div class="bg-gray-900 text-white py-4 px-6 md:px-8 lg:px-10">
+    <div class="container mx-auto flex items-center justify-between">
+      <div class="flex items-center">
+        <a href="#" class="text-2xl font-bold">
+          BookShore
+        </a>
+        <nav class="ml-8 hidden md:flex items-center space-x-6">
+          <a href="#" class="hover:text-gray-300">
+            Books
+          </a>
+          <a href="#" class="hover:text-gray-300">
+            eBooks
+          </a>
+          <a href="#" class="hover:text-gray-300">
+            Audiobooks
+          </a>
+          <a href="#" class="hover:text-gray-300">
+            Sell Books
+          </a>
+          <a href="#" class="hover:text-gray-300">
+            Rent Books
+          </a>
+        </nav>
+      </div>
+      <div class="flex items-center">
+        <div class="relative">
+          <input
+            placeholder="Search books, genres, or themes..."
+            class="bg-gray-800 border-none text-white pl-10 pr-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500"
+            type="text"
+          />
+          <i class="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5"></i>
+        </div>
+        <a href="#" class="ml-4 hover:text-gray-300">
+          Accessibility
+        </a>
+        <a href="#" class="ml-4 hover:text-gray-300">
+          Login
+        </a>
+        <a href="#" class="ml-4 bg-primary-500 hover:bg-primary-600 text-white px-4 py-2 rounded-md">
+          Sign Up
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="bg-gray-100 py-12 md:py-16 lg:py-20">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16">
+        <div>
+          <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Discover Your Next Great Read</h1>
+          <p class="text-gray-700 text-lg md:text-xl lg:text-2xl mb-8">
+            Browse our vast collection of books, eBooks, and audiobooks to find your perfect read.
+          </p>
+          <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+            <button class="bg-primary-500 hover:bg-primary-600 text-white px-6 py-3 rounded-md">
+              Explore Books
+            </button>
+            <button class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-6 py-3 rounded-md">
+              Discover eBooks
+            </button>
+          </div>
+        </div>
+        <div>
+          <img
+            src="/imf/I am haunted by humans.jpeg"
+            alt="Books"
+            width="800"
+            height="600"
+            class="rounded-lg object-cover"
+            style="aspect-ratio: 800 / 600; object-fit: cover;"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-12 md:py-16 lg:py-20">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-8">Featured Categories</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-12 lg:gap-16">
+        <a href="#" class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <img
+            src="/imf/Daniel Radcliffe's Harry Potter Audition Is Just as Cute as You Remember.jpeg"
+            alt="Fiction"
+            width="400"
+            height="300"
+            class="rounded-t-lg object-cover"
+            style="aspect-ratio: 400 / 300; object-fit: cover;"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Fiction</h3>
+            <p class="text-gray-700">Explore a world of imagination and storytelling.</p>
+          </div>
+        </a>
+        <a href="#" class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <img
+            src="/imf/NeuWrite West -- Ask a Neuroscientist_ Which neuroscience textbooks do we recommend_.jpeg"
+            alt="Non-Fiction"
+            width="400"
+            height="300"
+            class="rounded-t-lg object-cover"
+            style="aspect-ratio: 400 / 300; object-fit: cover;"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Non-Fiction</h3>
+            <p class="text-gray-700">Discover the world of facts, biographies, and more.</p>
+          </div>
+        </a>
+        <a href="#" class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <img
+            src="/imf/Hamlet~William Shakespeare __3.jpeg"
+            alt="Classics"
+            width="400"
+            height="300"
+            class="rounded-t-lg object-cover"
+            style="aspect-ratio: 400 / 300; object-fit: cover;"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Classics</h3>
+            <p class="text-gray-700">Dive into the timeless stories that have stood the test of time.</p>
+          </div>
+        </a>
+        <a href="#" class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <img
+            src="/imf/Autumn Tea Party by Aurélie Lise-Anne.jpeg"
+            alt="Children's Books"
+            width="400"
+            height="300"
+            class="rounded-t-lg object-cover"
+            style="aspect-ratio: 400 / 300; object-fit: cover;"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Children's Books</h3>
+            <p class="text-gray-700">Discover the magic of reading with our collection of children's books.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="bg-gray-100 py-12 md:py-16 lg:py-20">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-8">Accessibility for All</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16">
+        <div>
+          <img
+            src="/imf/_.jpeg"
+            alt="Accessibility"
+            width="600"
+            height="400"
+            class="rounded-lg object-cover"
+            style="aspect-ratio: 600 / 400; object-fit: cover;"
+          />
+        </div>
+        <div>
+          <p class="text-gray-700 text-lg md:text-xl lg:text-2xl mb-4">
+            At BookShelf, we believe in making reading accessible to everyone, including those with visual
+            impairments.
+          </p>
+          <p class="text-gray-700 text-lg md:text-xl lg:text-2xl mb-8">
+            We offer a dedicated section for visually impaired users, providing downloadable PDFs and audiobooks to
+            ensure everyone can enjoy the joy of reading.
+          </p>
+          <a href="#" class="inline-flex items-center text-primary-500 hover:text-primary-600 font-medium">
+            Learn More
+            <i class="ml-2 w-5 h-5">ArrowRight</i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-12 md:py-16 lg:py-20">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-8">Discover Local Bookstores</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-12 lg:gap-16">
+        <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <img
+            src="/imf/Saptagandaki.jpg"
+            alt="Bookstore 1"
+            width="400"
+            height="300"
+            class="rounded-t-lg object-cover"
+            style="aspect-ratio: 400 / 300; object-fit: cover;"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Saptagandaki Pustak Pasal</h3>
+            <p class="text-gray-700 mb-4">MCMM+CJJ, Bharatpur 44200</p>
+            <button class="bg-primary-500 hover:bg-primary-600 text-white px-4 py-2 rounded-md">Visit</button>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <img
+            src="/imf/ShagunBookStore.jpg"
+            alt="Bookstore 2"
+            width="400"
+            height="300"
+            class="rounded-t-lg object-cover"
+            style="aspect-ratio: 400 / 300; object-fit: cover;"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Shagun Book Store</h3>
+            <p class="text-gray-700 mb-4">P887+C58, Amrit Marg, Kathmandu 44600</p>
+            <button class="bg-primary-500 hover:bg-primary-600 text-white px-4 py-2 rounded-md">Visit</button>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <img
+            src="/imf/pyaragan.jpg"
+            alt="Bookstore 3"
+            width="400"
+            height="300"
+            class="rounded-t-lg object-cover"
+            style="aspect-ratio: 400 / 300; object-fit: cover;"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Pyaragan Book Store</h3>
+            <p class="text-gray-700 mb-4"> MCMM+GJR, Saptagandaki Chowk, Bharatpur 44207</p>
+            <button class="bg-primary-500 hover:bg-primary-600 text-white px-4 py-2 rounded-md">Visit</button>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <img
+            src="/imf/NationalBooksCenter.jpg"
+            alt="Bookstore 4"
+            width="400"
+            height="300"
+            class="rounded-t-lg object-cover"
+            style="aspect-ratio: 400 / 300; object-fit: cover;"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">National Book Center</h3>
+            <p class="text-gray-700 mb-4">चित्तधर मार्ग, Kathmandu 44600</p>
+            <button class="bg-primary-500 hover:bg-primary-600 text-white px-4 py-2 rounded-md">Visit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="bg-gray-900 text-white py-8 px-4 md:px-6 lg:px-8">
+  <div class="container mx-auto">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-12 lg:gap-16">
+      <div>
+        <h3 class="text-lg font-bold mb-4">BookShelf</h3>
+        <p class="text-gray-400 mb-4">Discover your next great read with our comprehensive book platform.</p>
+        <div class="flex space-x-4">
+          <a href="#" class="text-gray-400 hover:text-white">
+            <i class="w-6 h-6">Facebook</i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white">
+            <i class="w-6 h-6">Twitter</i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white">
+            <i class="w-6 h-6">Instagram</i>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h3 class="text-lg font-bold mb-4">Explore</h3>
+        <ul class="space-y-2">
+          <li>
+            <a href="#" class="text-gray-400 hover:text-white">
+              Books
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-400 hover:text-white">
+              eBooks
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-400 hover:text-white">
+              Audiobooks
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-400 hover:text-white">
+              Sell Books
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-400 hover:text-white">
+              Rent Books
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-lg font-bold mb-4">Support</h3>
+        <ul class="space-y-2">
+          <li>
+            <a href="#" class="text-gray-400 hover:text-white">
+              FAQ
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-400 hover:text-white">
+              Contact Us
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-400 hover:text-white">
+              Accessibility
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-400 hover:text-white">
+              Privacy Policy
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-400 hover:text-white">
+              Terms of Service
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-lg font-bold mb-4">Newsletter</h3>
+        <p class="text-gray-400 mb-4">
+          Subscribe to our newsletter to stay up-to-date with the latest news and releases.
+        </p>
+        <div class="flex">
+          <input
+            placeholder="Enter your email"
+            class="bg-gray-800 border-none text-white pl-4 pr-4 py-2 rounded-l-md focus:outline-none focus:ring-2 focus:ring-primary-500"
+            type="email"
+          />
+          <button class="bg-primary-500 hover:bg-primary-600 text-white px-4 py-2 rounded-r-md">Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <div class="mt-8 text-center text-gray-400">© 2024 BookShelf. All rights reserved.</div>
+  </div>
+</footer>
+
+</body>
+</html>
